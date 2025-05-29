@@ -1,10 +1,10 @@
 Administrator-Linux-Lesson-8-Startup
 
 # Редактирование файла /etc/default/grub
-root@ubuntu:~# nano /etc/default/grub
+
 #GRUB_TIMEOUT_STYLE=hidden
 GRUB_TIMEOUT=20
-root@ubuntu:~# update-grub
+update-grub
 
 # Вход без пароля. Способ 1.
 ## Перезагрузка
