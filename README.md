@@ -32,3 +32,22 @@ root@ubuntu:~# passwd username
 ![Скриншот3](https://github.com/user-attachments/assets/bdb471af-09a1-4947-aafb-c9f1308f27f8)
 
 Вывод: загрузиться без пароля не получается. Работает только способ №1.
+
+## Переименование VG
+root@ubuntu:~# vgs
+  VG        #PV #LV #SN Attr   VSize   VFree
+  ubuntu-vg   1   1   0 wz--n- <23,00g 11,50g
+Имя VG -   ubuntu-vg.
+root@ubuntu:~# vgrename ubuntu-vg ubuntu-otus
+  Volume group "ubuntu-vg" successfully renamed to "ubuntu-otus"
+
+# Правка /boot/grub/grub.cfg
+Меняем ubuntu--vg на ubuntu—otus.
+
+# Перезагрузка.
+root@ubuntu:~# vgs
+  VG          #PV #LV #SN Attr   VSize   VFree
+  ubuntu-otus   1   1   0 wz--n- <23,00g 11,50g
+Имя VG -   ubuntu-otus.
+Переименование VG произошло успешно.
+
