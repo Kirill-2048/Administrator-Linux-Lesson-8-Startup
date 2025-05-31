@@ -41,7 +41,9 @@ root@ubuntu:~# vgs
   
   ubuntu-vg   1   1   0 wz--n- <23,00g 11,50g
   
+  
   Имя VG -   ubuntu-vg.
+  
 
 root@ubuntu:~# vgrename ubuntu-vg ubuntu-otus
 
@@ -57,6 +59,8 @@ root@ubuntu:~# vgs
   
   ubuntu-otus   1   1   0 wz--n- <23,00g 11,50g
   
+  
   Имя VG -   ubuntu-otus.
+  
 Переименование VG произошло успешно.
 
