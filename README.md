@@ -42,6 +42,7 @@ root@ubuntu:~# vgs
 Имя VG -   ubuntu-vg.
 
 root@ubuntu:~# vgrename ubuntu-vg ubuntu-otus
+
   Volume group "ubuntu-vg" successfully renamed to "ubuntu-otus"
 
 # Правка /boot/grub/grub.cfg
