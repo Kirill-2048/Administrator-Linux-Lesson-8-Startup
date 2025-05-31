@@ -52,6 +52,7 @@ root@ubuntu:~# vgrename ubuntu-vg ubuntu-otus
 root@ubuntu:~# vgs
 
   VG          #PV #LV #SN Attr   VSize   VFree
+  
   ubuntu-otus   1   1   0 wz--n- <23,00g 11,50g
   
 Имя VG -   ubuntu-otus.
