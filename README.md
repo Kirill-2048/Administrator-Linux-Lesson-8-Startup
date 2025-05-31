@@ -16,7 +16,7 @@ update-grub
 
 ![Скриншот1](https://github.com/user-attachments/assets/6ed12b4f-e892-409f-9177-1624ad14f16a)
 
-сtrl-x для загрузки в системы
+сtrl-x для загрузки системы
 
 root@ubuntu:~# mount -o remount,rw /
 
